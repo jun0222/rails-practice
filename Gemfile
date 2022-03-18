@@ -17,7 +17,14 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
-gem 'rename' # 参考:https://qiita.com/ryoya-s/items/66e426f1a0dd5d87cd6f
+
+# リポジトリ&&プロジェクト名をリネーム
+## gem
+gem 'rename' 
+## 参考記事
+### https://qiita.com/ryoya-s/items/66e426f1a0dd5d87cd6f
+### https://qiita.com/hiknot/items/583e8dbe4970bc8c25c8
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
