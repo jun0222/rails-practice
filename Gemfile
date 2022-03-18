@@ -20,7 +20,7 @@ gem 'jbuilder', '~> 2.7'
 
 # リポジトリ&&プロジェクト名をリネーム
 ## gem
-gem 'rename' 
+gem 'rename'
 ## 参考記事
 ### https://qiita.com/ryoya-s/items/66e426f1a0dd5d87cd6f
 ### https://qiita.com/hiknot/items/583e8dbe4970bc8c25c8
