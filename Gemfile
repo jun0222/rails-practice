@@ -31,6 +31,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+
+  # おすすめgem一覧:https://zenn.dev/mochiblock/articles/89f8bf248b1bd8
+  gem 'rspec-rails', '~> 3.6'
 end
 
 group :development do
@@ -38,9 +41,11 @@ group :development do
   gem 'listen', '~> 3.2'
   gem 'web-console', '>= 3.3.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'rubocop', require: false # 参考:https://qiita.com/tomohiii/items/1a17018b5a48b8284a8b
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
+  # おすすめgem一覧:https://zenn.dev/mochiblock/articles/89f8bf248b1bd8
+  gem 'rubocop', require: false # 参考:https://qiita.com/tomohiii/items/1a17018b5a48b8284a8b
 end
 
 group :test do
