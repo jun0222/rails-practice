@@ -13,6 +13,6 @@ bundle exec rspec spec/models/test_spec.rb
 ```
 bin/rails g rspec:model user
 bin/rails g rspec:install # existsでた。いらない？検証必要。別モデル使って。
-# config.use_transactional_fixtures の件も書く https://qiita.com/tatsurou313/items/c923338d2e3c07dfd9ee
+# config.use_transactional_fixtures の件も書く https://qiita.com/a_ishidaaa/items/b17ca8fa1a50ed5c3802
 bundle exec rspec spec/models/user_spec.rb
 ```
