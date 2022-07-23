@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # 参考
 ## https://qiita.com/tatsurou313/items/c923338d2e3c07dfd9ee
 ## https://ticklecode.com/step19-rails-rspec/
